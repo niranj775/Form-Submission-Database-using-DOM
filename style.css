@@ -1,0 +1,12 @@
+.outerdiv {
+  margin: 3% !important;
+}
+
+body {
+  background-color: #eef0ec !important;
+  color: #456268 !important;
+}
+
+button {
+  background-color: #456268;
+}
