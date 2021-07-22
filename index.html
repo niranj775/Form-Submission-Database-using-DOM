@@ -11,9 +11,9 @@
 <body>
     <div class="outerdiv">
         <div class="row ">
-            <div class="col-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                 <h1>Form Submission:</h1>
-                <form action="" class="form-style">
+                <form action="" class="form-style" id="tempform"method="POST">
                     <label for="fname">First Name: </label>
                     <input type="text" name="fname" id="fname" class="form-control "  placeholder="First Name">
                     <br>
@@ -37,25 +37,25 @@
                     <label for="gender">Gender:</label>
                     <br>
                     
-                    <input type="radio" name="gender"  class="gender m-2 mb-2" id="male" value="male">
+                    <input type="radio" name="gender"  class="gender m-2 mb-2" id="male" value="Male">
                     <label for="gender">Male</label>
                     
-                    <input type="radio" name="gender"  class="gender m-2 mb-2" id="female"  value="female">
+                    <input type="radio" name="gender"  class="gender m-2 mb-2" id="female"  value="Female">
                     <label for="gender">Female</label>
                     <br>
                     <br>
 
                     <label for="food">Choice of Food: <span class="font-weight-lighter font-italic">(must choose at least 2 out of 5 options)</span></label>
                     <br>
-                    <input type="checkbox" name="food" class="food m-2" id="northindian"> <label for="">North Indian</label>
+                    <input type="checkbox" name="food" class="food m-2" value="North Indian" id="northindian"> <label for="">North Indian</label>
                     <br>
-                    <input type="checkbox" name="food" class="food m-2" id="southindian"> <label for="">South Indian</label>
+                    <input type="checkbox" name="food" class="food m-2" value="South Indian" id="southindian"> <label for="">South Indian</label>
                     <br>
-                    <input type="checkbox" name="food" class="food m-2" id="chinese"> <label for="">Chinese</label>
+                    <input type="checkbox" name="food" class="food m-2" value="Chinese" id="chinese"> <label for="">Chinese</label>
                     <br>
-                    <input type="checkbox" name="food" class="food m-2" id="japanese"> <label for="">Japanese</label>
+                    <input type="checkbox" name="food" class="food m-2" value="Japanese" id="japanese"> <label for="">Japanese</label>
                     <br>
-                    <input type="checkbox" name="food" class="food m-2" id="seafood"> <label for="">Sea Food</label>
+                    <input type="checkbox" name="food" class="food m-2" value="Sea Food" id="seafood"> <label for="">Sea Food</label>
                     <br><br>
 
                     <label for="">State</label>
@@ -69,7 +69,7 @@
                     <button type="submit" class="form-control  btn btn-secondary">Submit</button>
                 </form>
             </div>
-            <div class="col-8">
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-8">
                 <h1>Temporary Database</h1>
                 <br>
                 <table class="table table-striped">
